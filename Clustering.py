@@ -2,7 +2,7 @@
 """
 Created on Sat Dec  1 22:36:49 2018
 
-@author: Gogo
+@author: Gehad
 """
 import pandas as pd
 import random 
