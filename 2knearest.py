@@ -2,7 +2,7 @@
 """
 Created on Sun Dec 23 17:15:25 2018
 
-@author: Gogo
+@author: Gehad
 """
 import pandas as pd
 import math 
