@@ -34,8 +34,6 @@ def generate_one_itemset_withsupport(transactions,items):
         items_sup.append((item,count))
     return(items_sup)
     
-#بقارن ايتمست بال ست بتاعة الترانزاكشن واشوف ان كانت جزء منها 
-#ولا لا وبريترن ست فيها بيرز بال ايتمست و السبورت كونت بتاعها 
 def generate_n_itemset_withsupport(transactions,item_sets):
     items_with_sup=list()
     count =0
@@ -51,8 +49,7 @@ def generate_n_itemset_withsupport(transactions,item_sets):
             
         #items_sup.append((itemset,count))
 
-# بمسح اللي اقل من المينيمم سابورت
-# في الست اللي رجعت من الفانكشن اللي فوق دي 
+
 def remove_pair(item_sup_pairs,minsup):
     updated_pairs=list()
     for item,support in item_sup_pairs:
