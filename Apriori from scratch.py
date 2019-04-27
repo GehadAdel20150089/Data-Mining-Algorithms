@@ -1,8 +1,8 @@
-# -*- coding: utf-8 -*-
+
 """
 Created on Sat Nov  3 23:44:37 2018
 
-@author: Gogo
+@author: Gehad
 """
 ###import numpy as np
 import numpy as np
